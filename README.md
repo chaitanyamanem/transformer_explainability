@@ -25,5 +25,7 @@
 3. approximate the integral between your baseline and input by accumulating (cumulative average) these local gradients.
 <br>
 <b>Formula for IG:</b><br><br>
-![ig_formula](images/ig_formula.png)
+![negative_explanation](images/ig_formula.png)
+
+
 
