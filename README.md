@@ -29,4 +29,6 @@
 
 
 
-
+### References:
+https://arxiv.org/abs/1703.01365
+https://www.tensorflow.org/tutorials/interpretability/integrated_gradients
