@@ -23,9 +23,9 @@
 1. interpolate small steps along a straight line in the feature space between 0 (a baseline or starting point) and 1 (input pixel's value)
 2. compute gradients at each step between your model's predictions with respect to each step
 3. approximate the integral between your baseline and input by accumulating (cumulative average) these local gradients.
-<br>
+
 ### Formula for IG:
-</b><br><br>
+
 
 
 
