@@ -1,16 +1,18 @@
 # Transformer Explainability
 
-- Implemented transfomer model, Explanability method Integrated Gradients (IGs) using TensorFlow
-- Model is encoder only tranfomer developed for sentence level classification.
-- First token of the sentence (\[START\]) is used for the classificaiton.
-- Showed adapting IGs method usally applied for images to language model.
-- Highlighted the words in the sentense contributed to the prediciton decision.
-- This method can be adapted to any gradient based models.
+- Implemented a Transformer model and integrated the explainability method Integrated Gradients (IGs) using TensorFlow.
+- Developed an encoder-only Transformer for sentence-level classification.
+- Utilized the first token of the sentence (\[START\]) for classification purposes.
+- Demonstrated the adaptation of the IGs method, typically applied to images, to a language model.
+- Highlighted the words in the sentence that contributed to the prediction decision.
+- This method is adaptable to any gradient-based models.
 
   
 ![positive_explanation](images/positive_explanation.png)
-<i>Above image shows, model predicted given sentense as positive with 98% confidence. Also IGs methos hilights `excellent` and `fascinating` are the two words contributed most to model prediciton as postive</i>
+<i>The above image shows that the model predicted the given sentence as positive with 98% confidence. Additionally, IG's method highlights that `excellent` and `fascinating` are the two words that contributed most to the model's prediction as positive.</i>
 <br><br><br>
 ![negative_explanation](images/negative_explanation.png)
-<i>Above image shows, model predicted given sentense as negative with 98% (1 - 0.018) confidence. IGs methos explained the model prediction, by hilighting words (in pink) contributed to negative prediction</i>
+<i>The above image shows that the model predicted the given sentence as negative with 98% (1 - 0.018) confidence. IG's method explained the model prediction by highlighting words (in pink) that contributed to the negative prediction.</i>
+
+## Integrated Gradients(IGs):
 
