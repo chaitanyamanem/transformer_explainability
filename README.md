@@ -14,5 +14,5 @@
 ![negative_explanation](images/negative_explanation.png)
 <i>The above image shows that the model predicted the given sentence as negative with 98% (1 - 0.018) confidence. IG's method explained the model prediction by highlighting words (in pink) that contributed to the negative prediction.</i>
 
-## Integrated Gradients(IGs):
+## Integrated Gradients(IGs): 
 
