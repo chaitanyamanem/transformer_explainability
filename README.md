@@ -10,6 +10,7 @@
   
 ![positive_explanation](images/positive_explanation.png)
 <i>Above image shows, model predicted given sentense as positive with 98% confidence. Also IGs methos hilights `excellent` and `fascinating` are the two words contributed most to model prediciton as postive</i>
-<br><br>
+<br><br><br>
 ![negative_explanation](images/negative_explanation.png)
+<i>Above image shows, model predicted given sentense as negative with 98% (1 - 0.018) confidence. IGs methos explained the model prediction, by hilighting words (in pink) contributed to negative prediction</i>
 
