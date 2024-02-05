@@ -13,6 +13,9 @@
 <br><br><br>
 ![negative_explanation](images/negative_explanation.png)
 <i>The above image shows that the model predicted the given sentence as negative with 98% (1 - 0.018) confidence. IG's method explained the model prediction by highlighting words (in pink) that contributed to the negative prediction.</i>
+<br><br><br>
+![highlayer_positive_explanation](images/highlayer_positive_explanation.png)
+<i>The above image shows the low variance in the gradients (or importance) between the tokens when IG layer is placed right below the classification head.</i>
 
 ## Integrated Gradients(IGs): 
 - IG aims to explain the relationship between a model's predictions in terms of its features.
